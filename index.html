@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPEP MOD MENU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔥 EPEP MOD</h1>
+            <span class="version">v2.0</span>
+        </div>
+
+        <div class="toggle-item">
+            <span class="label">🎯 Auto-Aim (Headshot)</span>
+            <button class="switch" id="aimBtn" onclick="toggleAim()"></button>
+        </div>
+
+        <div class="toggle-item">
+            <span class="label">💥 Damage Boost (2.5x)</span>
+            <button class="switch" id="damageBtn" onclick="toggleDamage()"></button>
+        </div>
+
+        <div class="toggle-item">
+            <span class="label">🔫 No Recoil</span>
+            <button class="switch" id="recoilBtn" onclick="toggleRecoil()"></button>
+        </div>
+
+        <div class="toggle-item">
+            <span class="label">👀 ESP (Wallhack)</span>
+            <button class="switch" id="espBtn" onclick="toggleEsp()"></button>
+        </div>
+
+        <button class="btn-apply" onclick="applyAll()">✅ AKTIFKAN SEMUA</button>
+
+        <div class="status" id="statusText">Status: OFF</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
